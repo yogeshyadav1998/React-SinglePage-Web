@@ -1,0 +1,29 @@
+.footer{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(19, 4, 19);
+}
+.lists{
+    height: 30vh;
+    margin: 50px 0px 0px 10px;
+}
+
+.headingf1{
+    color: rgb(238, 220, 238);
+    font-size: larger;
+    font-weight: 500;
+}
+
+.headingf2{
+    color: rgb(231, 186, 231);
+}
+
+.ending{
+    position: absolute;
+    display: inline-flex;
+    margin-top: 40px;
+    vertical-align: inherit;
+    height: 10vh;
+    width: 100%;
+    color: rgb(231, 186, 231);
+}

@@ -1,0 +1,75 @@
+.phase3{
+    height: 150vh;
+}
+
+.text3{
+    height: 40vh;
+    width: 100%;
+}
+
+.heading31{
+    display: flex;
+    font-size: 2.55rem;
+}
+
+.heading311{
+    color: rgb(45, 17, 68);
+    font-weight: 600;
+}
+
+.heading312{
+    color:  rgb(116, 78, 148);
+    padding-left: 25px;
+    font-weight: 750;
+}
+
+.heading32{
+    font-size: 1.4rem;
+    padding: 5px 70px;
+    text-align: center;
+    color: rgb(45, 17, 68);
+}
+
+.a3{
+    position: absolute;
+    left: 40%;
+    width: 20%;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.wave{
+    height: 40vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.heading33{
+    height: 50vh;
+    width: 100%;
+}
+
+.heading331{
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: rgb(45, 17, 68);
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.heading332{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    color: rgb(45, 17, 68);
+    line-height: 1.8rem;
+    font-size: 1.55rem;
+    font-weight: 400;
+}
+
+.phase3_image{
+    margin-left: 30px;
+    height: 65vh;
+}

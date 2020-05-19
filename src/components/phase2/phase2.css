@@ -1,0 +1,54 @@
+.phase2{
+    padding-top: 12vh;
+    height: 100vh;
+}
+
+.brands{
+    height: 20vh;
+    width: 100%;
+}
+
+.phase2_image{
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100%;
+}
+
+.heading21{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: grey;
+}
+
+.brandicons{
+    display: flex;
+    padding-top: 10vh;
+    justify-content: space-between;
+}
+
+.text2{
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100%;
+}
+
+.heading22{
+    position: absolute;
+    top: 30%;
+    color: rgb(45, 17, 68);
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.heading23{
+    position: absolute;
+    top: 50%;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+    color: rgb(45, 17, 68);
+    font-size: 1.6rem;
+    font-weight: 400;
+}

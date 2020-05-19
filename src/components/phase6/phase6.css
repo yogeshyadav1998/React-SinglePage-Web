@@ -1,0 +1,73 @@
+.phase6{
+    height: 100vh;
+    width: 100%;
+}
+
+.phase6form{
+    height: 70vh;
+    width: 100%;
+    margin-top: 15vh;
+    background-color: rgba(204, 204, 167, 0.521);
+}
+
+.formimage{
+    height: 70vh;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+.formcontent{
+    height: 70vh;
+    width: 100%;
+}
+
+.formheading1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 2.5rem;
+    font-family: 'Helvetica Now',sans-serif;
+    color: #3a265c;
+    font-weight: 800;
+}
+
+.formheading2{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-size: 2.5rem;
+    color: #c3b1db;
+    font-weight: 800;
+}
+
+.forminput{
+    position: relative;
+    font-size: larger;
+    display: block;
+    justify-content: center;
+    top: 50%;
+    left: 0%;
+    width: 80%;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    border: none;
+}
+
+.formsubmit_button{
+    position: absolute;
+    display: block;
+    top: 80%;
+    left: 70%;
+    justify-content: center;
+    color: white;
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding: 10px 40px;
+    text-shadow: 1px 2px 20px #000000;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+    background: rgb(140, 67, 158);
+    font-size: larger;
+}

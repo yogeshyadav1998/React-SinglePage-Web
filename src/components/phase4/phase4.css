@@ -1,0 +1,38 @@
+.phase4{
+    height: 90vh;
+    margin-top: 8vh;
+    width:100%;
+    background-color: rgb(250, 250, 250);
+}
+
+.phase4carousel{
+    height: 80vh;
+    width: 100%;
+}
+
+.carouselimage{
+    height: 40vh;
+    margin-top: 20vh;
+    width: 100%;
+}
+
+
+.text4{
+    height: 40vh;
+    margin-top: 20vh;
+    width: 100%;
+}
+
+.heading41{
+    font-size: 5rem;
+    color: rgb(174, 66, 189);
+}
+
+.heading42{
+    position: absolute;
+    top: 45%;
+    color: rgb(174, 66, 189);
+    padding: 5px 20px;
+    font-size: 2rem;
+    font-weight: 500;
+}

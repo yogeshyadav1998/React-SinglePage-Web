@@ -1,0 +1,50 @@
+.phase5{
+    height: 320vh;
+}
+
+.text51{
+    height: 30vh;
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+}
+
+.heading51{
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #3a265c;
+    font-weight: 700;
+}
+
+.heading52{
+    color: #c3b1db;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Helvetica Now',sans-serif;
+}
+
+.grid{
+    height: 65vh;
+    width: 100%;
+}
+
+.heading53{
+    position: absolute;
+    top: 20%;
+    margin: 25px 30px;
+    font-family: 'Helvetica Now',sans-serif;
+    color: #3a265c;
+    font-size: 44px;
+    line-height: 53px;
+    font-weight: 700
+}
+
+.heading54{
+    position: absolute;
+    margin: 0px 30px;
+    top: 50%;
+    color: #3a265c;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Helvetica Now',sans-serif;
+}
