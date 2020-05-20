@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Row,Col} from 'antd';
+import {Row,Col,Icon} from 'antd';
 
 import './footer.css'
 
@@ -52,9 +52,37 @@ class footer extends Component{
                 <Row>
                     <Col md={16} offset={4}>
                         <div className="ending">
-                            <img src="/lumentrade.svg"/>
-                            <p style={{padding:"30px 10px 0px 10px"}}>Copyright ©2020 – Metaflow LTD. – All rights reserved.</p>
-                            <hr style={{height:"1px", width:"100%", position:"absolute", top:"75%", color:"black"}}/>
+                            <Row>
+                                <Col md={3}>
+                                <img src="/lumentrade.svg"/>
+                                </Col>
+                                <Col md={10}>
+                                <p>Copyright ©2020 – Metaflow LTD. – All rights reserved.</p>
+                                </Col>
+                                <Col md={4} offset={7}>
+                                    <Col md={6}>
+                                    <Icon type="twitter" />
+                                    </Col>
+                                    <Col md={6}>
+                                    <Icon type="facebook" />
+                                    </Col>
+                                    <Col md={6}>
+                                    <Icon type="instagram" />
+                                    </Col>
+                                    <Col md={6}>
+                                    <Icon type="youtube" />
+                                    </Col>
+                                </Col>
+                            </Row>
+                            <hr style={{height:"1px", width:"100%", position:"absolute", color:"black"}}/>
+                            <Row className="paymentadd">
+                                <Col md={3} offset={16}><p>secure checkout</p></Col>
+                                <Col md={1}><img src="/paypal.svg"/></Col>
+                                <Col md={1}><img src="/visa.svg"/></Col>
+                                <Col md={1}><img src="/master.svg"/></Col>
+                                <Col md={1}><img src="/americanexpress.svg"/></Col>
+                                <Col md={1}><img style={{height:"25px"}} src="/discover.jpg"/></Col>
+                            </Row>
                         </div>
                     </Col>
                 </Row>
