@@ -1,14 +1,31 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect, Component } from 'react';
 import { Row, Col, Button, Icon } from 'antd';
 
 import './header.css';
 
-class Header extends Component {
+function Header (){
 
-  render(){
+  const [header, setHeader] = useState("header");
+
+  const listenScrollEvent = event => {
+    if (window.scrollY < 10) {
+      return setHeader("header");
+    }else if(window.scrollY <900){
+      return setHeader("headerdiable")
+    }else if (window.scrollY > 900) {
+      return setHeader("headershadow");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+
+    return () => window.removeEventListener("scroll", listenScrollEvent);
+  }, []);
+
     return (
       <div style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
-        <Row className="header">
+        <Row className={header}>
           <Col md={2} offset={1}>
             <img className="trade_name" src="/lumentrade.svg"/>
           </Col>
@@ -24,8 +41,6 @@ class Header extends Component {
         </Row>
       </div>
     );
-  }
 }
-
 
 export default Header;
